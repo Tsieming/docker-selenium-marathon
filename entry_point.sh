@@ -16,7 +16,7 @@ function shutdown {
   wait $NODE_PID
 }
 
-REMOTE_HOST_PARAM="-remoteHost $HOST:$PORT"
+REMOTE_HOST_PARAM="-remoteHost http://$HOST:$PORT"
 
 # TODO: Look into http://www.seleniumhq.org/docs/05_selenium_rc.jsp#browser-side-logs
 
